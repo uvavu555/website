@@ -42,7 +42,7 @@ const SingleProject = ({ project }: { project: Content.ProjectDocument }) => {
             </Link>
           </h3>
           <p className="mb-6 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
-            {truncateText(data.overview[0].text, 200, true)}
+            {truncateText(data.overview[0]["text"], 200, true)}
           </p>
           <div className="flex items-center">
             <div className="inline-block">
